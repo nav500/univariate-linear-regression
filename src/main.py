@@ -32,5 +32,7 @@ plt.scatter(x_train, y_train)
 x_feature = np.array([0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0])
 y_est_target = x_feature * w_curr + b_curr
 plt.plot(x_feature, y_est_target)
-
+plt.xlabel("Size in 1000 sq feet")
+plt.ylabel("Price in 1000$ dollars")
+plt.title("Size of house vs Price")
 plt.show()
